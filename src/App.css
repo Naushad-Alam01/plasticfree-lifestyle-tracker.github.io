@@ -1,0 +1,188 @@
+
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling for the page */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #2a527f;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 28px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.hero {
+  background-color: #7ebf7e;
+  padding: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.hero button {
+  background-color: #2a527f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.hero button:hover {
+  background-color: #406aa5;
+}
+
+.hero img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+.tracker {
+  background-color: #d9f5d9;
+  padding: 20px;
+  text-align: center;
+}
+
+.progress-bar {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  height: 20px;
+  overflow: hidden;
+}
+
+.progress {
+  background-color: #2a527f;
+  height: 100%;
+  transition: width 1s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.tracker button {
+  background-color: #2a527f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.tracker button:disabled {
+  background-color: #b0b0b0;
+  cursor: not-allowed;
+}
+
+.tracker button:hover:not(:disabled) {
+  background-color: #406aa5;
+}
+
+.tips {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.tips ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+.community {
+  background-color: #7ebf7e;
+  padding: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.community-content {
+  position: relative;
+  z-index: 1;
+}
+
+.community h3 {
+  color: #fff;
+}
+
+.community button {
+  background-color: #2a527f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.community button:hover {
+  background-color: #406aa5;
+}
+
+.community img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+footer {
+  background-color: #2a527f;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
